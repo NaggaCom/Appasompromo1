@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    background-color: #006699;
+    max-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+div.arriba{
+	background-color: #660033;
+	border: 0.5px solid #660033;
+	border-radius: 0px;
+	height: 42px;
+	width: 100;
+	}
+
+.logo{
+	border: 1.5px solid white;
+	border-radius: 100px;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	width: 50px;
+	}		
+	
+div.contenedor{
+	background-color: white;
+	border: 0px solid  #660066;
+	border-radius: 0px;
+	height: auto;
+	padding: 10px 10px;
+	position: absoluted;
+	margin-bottom: 0px;
+	width: 100℅;
+	}
+
+div.caja-arriba{
+	background-color: #6600FF;
+	border: 3px solid #6600FF;
+	border-radius: 5px;
+	height: auto;
+	padding: 2.5px 2.5px;
+	width: 100℅;
+	}
+	
+.name-app{
+	color: white;
+	font-size: 15px;
+	font-family: Impact;
+	margin-left: 5px;
+	}
+	
+.banner{
+	height: 140px;
+	margin-top: 0;
+	width: 100℅;
+	}
+	
+.promo1{
+	color: white;
+	font-family: Cursive;
+	font-size: 14px;
+	margin-top: 20px;
+	text-align: center;
+	}
+	
+div.img-r-cont{
+	display: inline;
+	margin-top: 20px;
+	}
+	
+.img-redonda-1{
+	border: 4px solid white;
+	border-radius: 100px;
+	height: 120px;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 120px;
+	}
+	
+.img-redonda-2{
+	border: 4px solid white;
+	border-radius: 100px;
+	height: 120px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 10px;
+	width: 120px;
+	}	
+	
+div.rectangulo{
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline;
+	height: 45px;
+	margin-top: 15px;
+	margin-left: 15px;
+	padding: 5px 5px;
+	width: 90%;
+	}
+	
+.img-rect{
+	border: 0.5px solid white;
+	border-radius: 100px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 30px;
+	}	
+	
+.raya{
+	height: 30px;
+	margin-left: 3px;
+	width: 1.5px;
+	margin-bottom: 0px;
+	}
+	
+.toca{
+	color: white;
+	margin-left: 3px;
+	}
